@@ -20,7 +20,7 @@ export const Header = () => {
 
   return (
     <div className={`${styles.root} ${styles.fixedHeader}`}>
-      <Container maxWidth="lg">
+      <Container maxWidth="md">
         <div className={styles.inner}>
           <Link
             className={styles.logo}

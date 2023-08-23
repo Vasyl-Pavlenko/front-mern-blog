@@ -4,6 +4,8 @@ import { useSelector } from 'react-redux';
 import TextField from '@mui/material/TextField';
 import Paper from '@mui/material/Paper';
 import Button from '@mui/material/Button';
+import DeleteIcon from '@mui/icons-material/Delete';
+import SendIcon from "@mui/icons-material/Send";
 import SimpleMDE from 'react-simplemde-editor';
 
 import 'easymde/dist/easymde.min.css';
@@ -143,6 +145,7 @@ export const AddPost = () => {
                   variant="contained"
                   color="error"
                   onClick={onClickRemoveImage}
+                  endIcon={<DeleteIcon />}
                 >
                   Delete
                 </Button>
@@ -189,6 +192,7 @@ export const AddPost = () => {
                 onClick={onSubmit}
                 size="large"
                 variant="contained"
+                endIcon={<SendIcon />}
               >
                 {isEditing ? 'Save' : 'Publish'}
               </Button>

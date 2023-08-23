@@ -98,7 +98,7 @@ export const Home = () => {
                 key={index}
                 id={obj._id}
                 title={obj.title}
-                imageUrl={obj.imageUrl ? `http://localhost:4444${obj.imageUrl}` : ''}
+                imageUrl={obj.imageUrl ? `${process.env.REACT_APP_API_URL}${obj.imageUrl}` : ''}
                 user={obj.user}
                 createdAt={new Date(obj.createdAt).toLocaleDateString()}
                 viewsCount={obj.viewsCount}

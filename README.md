@@ -1,21 +1,9 @@
-# MERN Blog Backend [DEMO LINK](https://vasyl-pavlenko.github.io/front-mern-blog/).
-
-Welcome to the MERN (MongoDB, Express, React, Node.js) Blog Backend repository! This repository contains the backend code for the MERN blog application. The backend is responsible for handling user authentication, managing blog posts, comments, and image uploads.
-
-## Prerequisites
-
-Before you begin, make sure you meet the following requirements:
-
-- Node.js (v14 or higher) is installed on your machine.
-- Access to a MongoDB instance or connection URL.
-
-## Getting Started
-
-1. Clone the repository to your local machine:
-
 # MERN Blog Frontend
 
 Welcome to the MERN (MongoDB, Express, React, Node.js) Blog Frontend repository! This repository contains the frontend code for the MERN blog application. The frontend is responsible for displaying blog posts, allowing users to register and log in, creating and editing posts, and interacting with comments.
+
+## Link to backend
+https://github.com/Vasyl-Pavlenko/first-blog
 
 ## Prerequisites
 

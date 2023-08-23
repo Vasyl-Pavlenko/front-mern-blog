@@ -82,7 +82,8 @@ export const Home = () => {
         spacing={4}
       >
         <Grid
-          xs={7}
+          xs={12}
+          md={8}
           item
         >
           {isPostsLoading ? (
@@ -111,7 +112,8 @@ export const Home = () => {
         </Grid>
 
         <Grid
-          xs={5}
+          xs={12}
+          md={4}
           item
         >
           <TagsBlock

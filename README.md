@@ -1,6 +1,4 @@
 # MERN Blog Frontend
-[DEMO LINK](https://vasyl-pavlenko.github.io/front-mern-blog/).
-
 
 Welcome to the MERN (MongoDB, Express, React, Node.js) Blog Frontend repository! This repository contains the frontend code for the MERN blog application. The frontend is responsible for displaying blog posts, allowing users to register and log in, creating and editing posts, and interacting with comments.
 
